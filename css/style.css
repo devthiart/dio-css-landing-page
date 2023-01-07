@@ -1,0 +1,122 @@
+h1 {
+  background: -webkit-linear-gradient(#33A8DB, #1472B7);
+  background-clip: text;
+  color: transparent;
+  font-size: 2.5rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  -webkit-background-clip: text;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #33A8DB;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+  letter-spacing: 0.25rem;
+}
+
+section {
+  margin: 10vh auto;
+}
+
+footer {
+  border-top: 1px solid #33A8DB;
+  padding: 4rem;
+  text-align: center;
+}
+
+.banner {
+  background-image: linear-gradient(rgba(0, 0, 0, .6), 
+                  rgba(49, 168, 221, .2), 
+                  rgba(0, 0, 0, .6)), 
+                    url(../assets/images/banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  padding-top: 10vh;
+  border-bottom: 1px solid #33A8DB;
+}
+
+.banner-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  margin: auto;
+  width: 80vw;
+  text-align: center;
+}
+
+.banner-content > p {
+  font-size: 1.25rem;
+  margin: 1rem 0 1.5rem;
+}
+
+.banner-content > button {
+  background-color: transparent;
+  color: #31A8DD;
+  font-size: 1rem;
+  font-weight: 900;
+  letter-spacing: 0.25rem;
+  padding: 1rem 2rem;
+  text-transform: uppercase;
+  border: 1px solid #31A8DD;
+}
+
+.logo {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+  margin: auto;
+  margin-bottom: 1rem;
+  padding: 16px;
+}
+
+#course-content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+
+  height: 80vh;
+  margin: 10vh auto;
+  text-align: center;
+}
+
+.modules-list {
+  margin: 2rem 0;
+}
+
+.module {
+  background-color: #252525;
+  border: 1px solid #33A8DB;
+  border-radius: 50px;
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+}
+
+#transform-world {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-attachment: fixed;
+  background-image: url(../assets/images/woman-code.png);
+  background-size: cover;
+  border-bottom: 1px solid #33A8DB;
+  border-top: 1px solid #33A8DB;
+  height: 90vh;
+}
+
+#transform-world > p {
+  font-size: 2.5rem;
+  font-weight: 900;
+  text-shadow: 3px 2px #33A8DB;
+  text-transform: lowercase;
+}
+
+#professional-challenges {
+  text-align: center;
+  width: 90vw;
+}
